@@ -17,7 +17,7 @@ namespace CalculateLib
         {
             if (nums == null) throw new ArgumentException("整型数组不能为空");
             int result = int.MinValue;
-            for (int i = 0; i < nums.Length - 1; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] > result)
                 {
